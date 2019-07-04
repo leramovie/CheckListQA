@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  CheckListFree
 //
-//  Created by Igor Mikhalev on 21/04/2019.
+//  Created by Lera Shchelkanova on 21/04/2019.
 //  Copyright © 2019 LeraHome. All rights reserved.
 //
 
