@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Your Today Check list-->
+        <!--Daily hack list-->
         <scene sceneID="eBT-vG-NyD">
             <objects>
                 <tableViewController id="RK3-e9-cmh" customClass="TableViewController" customModule="CheckListFree" sceneMemberID="viewController">
@@ -45,13 +45,16 @@
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             </tableViewCell>
                         </prototypes>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="tableView"/>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="dataSource" destination="RK3-e9-cmh" id="YI8-hM-Bdn"/>
                             <outlet property="delegate" destination="RK3-e9-cmh" id="lVH-7M-cwa"/>
                         </connections>
                     </tableView>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Your Today Check list" id="UaR-Iv-f26">
+                    <navigationItem key="navigationItem" title="Daily hack list" id="UaR-Iv-f26">
                         <barButtonItem key="leftBarButtonItem" width="18" systemItem="done" id="b6l-Ft-lmw">
                             <color key="tintColor" red="0.0084550511089999999" green="0.75992280239999999" blue="0.87785702939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
@@ -74,9 +77,6 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="btnEdit" destination="q2b-Ps-whw" id="aCc-gm-n7V"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Yx-i6-K7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
