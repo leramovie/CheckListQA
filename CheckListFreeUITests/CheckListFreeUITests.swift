@@ -44,5 +44,10 @@ class CheckListFreeUITests: XCTestCase {
         table.cells.staticTexts["123"].tap()
 
     }
+    
+    func testDeleteTask(){
+        XCUIApplication().tables["tableView"].buttons["Delete"].tap()
+    }
+
 
 }

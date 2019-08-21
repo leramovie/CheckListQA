@@ -57,6 +57,9 @@
                     <navigationItem key="navigationItem" title="Daily hack list" id="UaR-Iv-f26">
                         <barButtonItem key="leftBarButtonItem" width="18" systemItem="done" id="b6l-Ft-lmw">
                             <color key="tintColor" red="0.0084550511089999999" green="0.75992280239999999" blue="0.87785702939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="btnDone"/>
+                            </userDefinedRuntimeAttributes>
                             <connections>
                                 <action selector="btnDone:" destination="RK3-e9-cmh" id="Lgt-fl-kkm"/>
                             </connections>
@@ -64,12 +67,18 @@
                         <rightBarButtonItems>
                             <barButtonItem systemItem="add" id="GpH-ER-tSz">
                                 <color key="tintColor" red="0.0084550511089999999" green="0.75992280239999999" blue="0.87785702939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="btnAdd"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnAdd:" destination="RK3-e9-cmh" id="Wih-MN-07e"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem systemItem="edit" id="q2b-Ps-whw">
                                 <color key="tintColor" red="0.0084550511089999999" green="0.75992280239999999" blue="0.87785702939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="btnEdit"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnEdit:" destination="RK3-e9-cmh" id="tXv-DT-8X0"/>
                                 </connections>
